@@ -1,0 +1,11 @@
+# Security contact for the PrepAI documentation site.
+# https://interview-preparation-app-docs.aoneahsan.com/.well-known/security.txt
+
+Contact: mailto:aoneahsan@gmail.com
+Contact: https://aoneahsan.com
+Preferred-Languages: en
+Canonical: https://interview-preparation-app-docs.aoneahsan.com/.well-known/security.txt
+Expires: 2027-06-23T00:00:00.000Z
+
+# This site hosts public documentation only — no user data is processed here.
+# For security reports about the PrepAI app itself, email aoneahsan@gmail.com.

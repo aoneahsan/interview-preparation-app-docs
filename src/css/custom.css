@@ -1,0 +1,82 @@
+/**
+ * PrepAI — brand palette
+ * Primary: brand blue #3b82f6 (matches the app splash + accent)
+ * Accent: indigo (decorative; hover/focus rings)
+ */
+
+:root {
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d56d4;
+  --ifm-color-primary-darker: #1b51c8;
+  --ifm-color-primary-darkest: #1643a5;
+  --ifm-color-primary-light: #3f78ee;
+  --ifm-color-primary-lighter: #4d82ef;
+  --ifm-color-primary-lightest: #74a0f3;
+
+  --ifm-color-secondary: #6366f1;
+  --ifm-color-success: #10b981;
+  --ifm-color-info: #3b82f6;
+  --ifm-color-warning: #f59e0b;
+  --ifm-color-danger: #ef4444;
+
+  --ifm-code-font-size: 92%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --ifm-heading-font-weight: 700;
+
+  --docusaurus-highlighted-code-line-bg: rgba(59, 130, 246, 0.10);
+
+  --pa-surface-accent: rgba(99, 102, 241, 0.06);
+  --pa-surface-brand: rgba(59, 130, 246, 0.06);
+}
+
+/* Dark mode — keep brand recognisable, raise contrast on accent */
+[data-theme='dark'] {
+  --ifm-color-primary: #60a5fa;
+  --ifm-color-primary-dark: #408ff8;
+  --ifm-color-primary-darker: #3084f7;
+  --ifm-color-primary-darkest: #0a66e0;
+  --ifm-color-primary-light: #80bbfc;
+  --ifm-color-primary-lighter: #90c4fc;
+  --ifm-color-primary-lightest: #bfdbfe;
+
+  --ifm-background-color: #0b1220;
+  --ifm-background-surface-color: #111a2c;
+
+  --docusaurus-highlighted-code-line-bg: rgba(96, 165, 250, 0.18);
+}
+
+/* ---------------------------------------------------------------------------
+ * Subtle entrance animation on body content (CSS-only, respects reduced motion)
+ * ------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: no-preference) {
+  .markdown > h1,
+  .markdown > h2 {
+    animation: pa-fade-up 420ms ease-out both;
+  }
+  @keyframes pa-fade-up {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* Code block polish */
+.theme-code-block {
+  border-radius: 10px;
+}
+
+/* Author callout used on the about-the-author page (no extra component needed) */
+.pa-author-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-left: 4px solid var(--ifm-color-primary);
+  border-radius: 12px;
+  background: var(--pa-surface-brand);
+  margin: 1.5rem 0;
+}
+
+.pa-author-card a {
+  font-weight: 600;
+}

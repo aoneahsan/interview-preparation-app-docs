@@ -1,0 +1,19 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="PrepAI Documentation">
+  <defs>
+    <linearGradient id="prepaiCardBg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="prepaiCardMark" x1="80" y1="80" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#prepaiCardBg)"/>
+  <rect x="80" y="80" width="120" height="120" rx="28" fill="url(#prepaiCardMark)"/>
+  <path d="M118 116h22c11.5 0 19.6 7.2 19.6 17.8s-8.1 18.2-19.6 18.2H129V174h-11v-58Zm11 27h10.2c5.6 0 9-3.4 9-9s-3.4-8.5-9-8.5H129v17.5Z" fill="#ffffff"/>
+  <text x="80" y="320" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="84" font-weight="800" fill="#ffffff">PrepAI Docs</text>
+  <text x="80" y="392" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="36" font-weight="500" fill="#93c5fd">Coding drills · AI/peer mock interviews · peer reviews</text>
+  <text x="80" y="446" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="36" font-weight="500" fill="#93c5fd">Progress analytics · 50+ developer tools — free, in your browser</text>
+  <text x="80" y="556" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="30" font-weight="600" fill="#cbd5e1">interviewpai.aoneahsan.com · by Ahsan Mahmood</text>
+</svg>

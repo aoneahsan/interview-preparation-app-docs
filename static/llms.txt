@@ -1,0 +1,51 @@
+# PrepAI — Documentation Index
+
+> PrepAI is a zero-cost, browser-first interview-preparation platform: card-based coding practice drills across multiple language tracks, AI/peer/mentor-led mock interviews, peer code reviews, D3 progress analytics, gamification, and 50+ client-side developer tools. Live at https://interviewpai.aoneahsan.com and on Google Play (com.aoneahsan.interviewpai). Author: Ahsan Mahmood (https://aoneahsan.com).
+
+## About
+
+PrepAI helps developers prepare for technical interviews without paying for a course. Practice runs entirely in the browser (a Web Worker executes your code locally), AI mock interviews use Google Gemini's free tier, and the backend uses Firebase's free tier. Authentication is Google sign-in only. The app ships as a Progressive Web App and a native Android app built with Capacitor. This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec.
+
+## Getting Started
+
+- [Introduction](https://interview-preparation-app-docs.aoneahsan.com/intro): What PrepAI is, who it's for, and the feature areas it covers.
+- [Installation & access](https://interview-preparation-app-docs.aoneahsan.com/getting-started/installation): Open in a browser, install the PWA, or get the Android app.
+- [Quick Start](https://interview-preparation-app-docs.aoneahsan.com/getting-started/quick-start): Sign in and finish your first coding drill in five minutes.
+- [Accounts & sign-in](https://interview-preparation-app-docs.aoneahsan.com/getting-started/account-and-sign-in): Google-only authentication and what a new account creates.
+
+## Features
+
+- [Coding practice drills](https://interview-preparation-app-docs.aoneahsan.com/features/coding-practice): Language tracks, drill anatomy, the in-browser runner, and progress tracking.
+- [Mock interviews](https://interview-preparation-app-docs.aoneahsan.com/features/mock-interviews): AI, peer, and mentor formats; timing, recording, and scoring.
+- [Peer reviews](https://interview-preparation-app-docs.aoneahsan.com/features/peer-reviews): Request/review queue, inline comments, reputation, and thanks.
+- [Dashboard & analytics](https://interview-preparation-app-docs.aoneahsan.com/features/dashboard-analytics): Streaks, milestones, D3 charts, and PDF export.
+- [Developer tools](https://interview-preparation-app-docs.aoneahsan.com/features/developer-tools): 50+ client-side utilities including PDF-to-Word and image compression.
+- [Chat rooms](https://interview-preparation-app-docs.aoneahsan.com/features/chat-rooms): Real-time public and private study rooms.
+- [Gamification](https://interview-preparation-app-docs.aoneahsan.com/features/gamification): Points, badges, streaks, and leaderboards.
+- [Notifications](https://interview-preparation-app-docs.aoneahsan.com/features/notifications): Push and in-app notifications.
+- [Theme customizer](https://interview-preparation-app-docs.aoneahsan.com/features/theme-customizer): Appearance, accent colour, radius, scaling, and cross-device sync.
+
+## How-to guides
+
+- [Finish your first coding drill](https://interview-preparation-app-docs.aoneahsan.com/guides/first-coding-drill)
+- [Run an AI mock interview](https://interview-preparation-app-docs.aoneahsan.com/guides/ai-mock-interview)
+- [Export your progress as a PDF](https://interview-preparation-app-docs.aoneahsan.com/guides/export-progress-pdf)
+- [Configure a Google Gemini API key (self-host)](https://interview-preparation-app-docs.aoneahsan.com/guides/configure-gemini-key)
+- [Install PrepAI as a PWA](https://interview-preparation-app-docs.aoneahsan.com/guides/install-as-pwa)
+
+## Concepts
+
+- [Zero-cost architecture](https://interview-preparation-app-docs.aoneahsan.com/concepts/zero-cost-architecture): How PrepAI stays free.
+- [Privacy & data](https://interview-preparation-app-docs.aoneahsan.com/concepts/privacy-and-data): What is stored, what stays local, and account deletion.
+- [Subscription plans](https://interview-preparation-app-docs.aoneahsan.com/concepts/subscription-plans): Free, Pro, and Ultimate tiers.
+
+## Reference
+
+- [FAQ](https://interview-preparation-app-docs.aoneahsan.com/faq): Common questions about pricing, privacy, AI, and platforms.
+- [About the author](https://interview-preparation-app-docs.aoneahsan.com/about-the-author): Ahsan Mahmood.
+
+## Product links
+
+- App: https://interviewpai.aoneahsan.com
+- Google Play: https://play.google.com/store/apps/details?id=com.aoneahsan.interviewpai
+- Author: https://aoneahsan.com

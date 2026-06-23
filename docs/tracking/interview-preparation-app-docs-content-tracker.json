@@ -50,5 +50,5 @@
     "Add screenshots/GIFs once captured by the owner (no fabricated screenshots).",
     "Optional: a /changelog page reading from the app's RELEASE-NOTES.md once published."
   ],
-  "verification": { "typecheck": "pending", "build": "pending", "date": "2026-06-23" }
+  "verification": { "typecheck": "pass", "build": "pass (25 html pages + sitemap.xml + robots.txt + llms.txt)", "date": "2026-06-23" }
 }

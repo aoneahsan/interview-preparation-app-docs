@@ -65,3 +65,10 @@ yarn firebase:deploy
 ```
 
 Deploy is user-only (needs Firebase auth / Pages settings) — see the app repo's `docs/MANUAL-TASKS.md`.
+
+---
+
+## Gitignore Hygiene (IRON-SOLID)
+`.gitignore` stays current with the project structure — ignore only recoverable artifacts (build/`dist`/`www`/`node_modules`/logs/caches/IDE), never lose source. Custom rules always present: `*.ignore.*`, `project-record-ignore/`. This is a **PUBLIC** repo -> secrets/`.env`/keystores are NEVER tracked.
+Full rule + private/public protocol: `~/.claude/rules/project-config.md`.
+Gitignore Last Verified: 2026-06-24

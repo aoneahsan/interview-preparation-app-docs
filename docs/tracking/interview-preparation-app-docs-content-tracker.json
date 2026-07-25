@@ -3,10 +3,10 @@
   "project": "interview-preparation-app-docs",
   "describes": "PrepAI (interview-preparation-app)",
   "appUrl": "https://interviewpai.aoneahsan.com",
-  "docsUrl": "https://interview-preparation-app-docs.aoneahsan.com",
+  "docsUrl": "https://interviewpai-docs.aoneahsan.com",
   "repo": { "owner": "aoneahsan", "name": "interview-preparation-app-docs", "public": true, "remote": "o" },
   "createdAt": "2026-06-23",
-  "lastUpdated": "2026-06-23",
+  "lastUpdated": "2026-07-25",
   "stack": "Docusaurus 3 + React 19 + TypeScript",
   "hosting": ["github-pages", "firebase"],
   "seo": {

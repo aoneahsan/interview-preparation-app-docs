@@ -3,7 +3,7 @@
 #
 # Free hosting for a PUBLIC docs repo. Builds the Docusaurus site and publishes
 # the static `build/` output to the `github-pages` environment. The custom
-# domain (static/CNAME → interview-preparation-app-docs.aoneahsan.com) is
+# domain (static/CNAME → interviewpai-docs.aoneahsan.com) is
 # preserved by Docusaurus copying static/ into build/.
 #
 # Firebase Hosting (firebase.json + .firebaserc) remains available as an

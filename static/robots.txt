@@ -2,7 +2,7 @@
 # Maintained by Ahsan Mahmood (https://aoneahsan.com)
 # Last updated: 2026-06-23
 #
-# Public crawl policy for https://interview-preparation-app-docs.aoneahsan.com.
+# Public crawl policy for https://interviewpai-docs.aoneahsan.com.
 # We allow every reputable search-engine and AI bot. We block scraper bots that
 # don't drive traffic. The Sitemap directive lets crawlers discover the URL space.
 
@@ -114,4 +114,4 @@ Allow: /
 
 # --- Sitemap discovery ------------------------------------------------------
 
-Sitemap: https://interview-preparation-app-docs.aoneahsan.com/sitemap.xml
+Sitemap: https://interviewpai-docs.aoneahsan.com/sitemap.xml

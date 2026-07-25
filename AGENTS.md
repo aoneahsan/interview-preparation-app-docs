@@ -1,6 +1,6 @@
 # PrepAI Docs — Agent Guide
 
-**Last Updated:** 2026-06-23
+**Last Updated:** 2026-07-25
 
 Mirror of `CLAUDE.md` for agent workflows. Public documentation site for **PrepAI**, built with Docusaurus 3. This repo is **PUBLIC** (the app's code lives in the private `interview-preparation-app` repo).
 
@@ -13,7 +13,7 @@ Mirror of `CLAUDE.md` for agent workflows. Public documentation site for **PrepA
 | Property | Value |
 |---|---|
 | Repo | `aoneahsan/interview-preparation-app-docs` (PUBLIC) |
-| Docs URL | https://interview-preparation-app-docs.aoneahsan.com |
+| Docs URL | https://interviewpai-docs.aoneahsan.com |
 | App URL | https://interviewpai.aoneahsan.com |
 | Play Store | https://play.google.com/store/apps/details?id=com.aoneahsan.interviewpai |
 | Stack | Docusaurus 3 + React 19 + TypeScript |

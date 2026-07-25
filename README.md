@@ -4,7 +4,7 @@ Public documentation site for **PrepAI** — a free, browser-first interview-pre
 
 - **App:** https://interviewpai.aoneahsan.com
 - **Google Play:** https://play.google.com/store/apps/details?id=com.aoneahsan.interviewpai
-- **Docs (this site):** https://interview-preparation-app-docs.aoneahsan.com
+- **Docs (this site):** https://interviewpai-docs.aoneahsan.com
 - **Author:** [Ahsan Mahmood](https://aoneahsan.com)
 
 Built with [Docusaurus](https://docusaurus.io/). This repository is **public** (the app's source is private).
@@ -23,7 +23,7 @@ yarn serve          # serve the built site on http://localhost:5973
 
 ## Deployment (dual hosting)
 
-This site can be hosted two ways; both serve the same `build/` output and the custom domain `interview-preparation-app-docs.aoneahsan.com` (via `static/CNAME`):
+This site can be hosted two ways; both serve the same `build/` output and the custom domain `interviewpai-docs.aoneahsan.com` (via `static/CNAME`):
 
 1. **GitHub Pages** — `.github/workflows/deploy.yml` builds and publishes on every push to `main`.
 2. **Firebase Hosting** — `yarn firebase:deploy` (uses `firebase.json` + `.firebaserc`, project/site `interview-preparation-app-docs`).

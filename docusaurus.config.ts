@@ -8,7 +8,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // App: https://interviewpai.aoneahsan.com
 // ---------------------------------------------------------------------------
 
-const SITE_URL = 'https://interview-preparation-app-docs.aoneahsan.com';
+const SITE_URL = 'https://interviewpai-docs.aoneahsan.com';
 const APP_URL = 'https://interviewpai.aoneahsan.com';
 const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.aoneahsan.interviewpai';
 

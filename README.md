@@ -12,7 +12,7 @@ Built with [Docusaurus](https://docusaurus.io/). This repository is **public** (
 ## Local development
 
 ```bash
-yarn install        # install dependencies (yarn only)
+yarn install --immutable  # install pinned dependencies
 yarn start          # dev server on http://localhost:5972
 yarn build          # static build into build/
 yarn typecheck      # tsc --noEmit
@@ -21,12 +21,17 @@ yarn serve          # serve the built site on http://localhost:5973
 
 > Do not run the dev server in CI/agent contexts — use `yarn build` to verify.
 
-## Deployment (dual hosting)
+## Deployment
 
-This site can be hosted two ways; both serve the same `build/` output and the custom domain `interviewpai-docs.aoneahsan.com` (via `static/CNAME`):
+The active GitHub Pages workflow serves the `build/` output at the custom domain
+`interviewpai-docs.aoneahsan.com` (via `static/CNAME`):
 
-1. **GitHub Pages** — `.github/workflows/deploy.yml` builds and publishes on every push to `main`.
-2. **Firebase Hosting** — `yarn firebase:deploy` (uses `firebase.json` + `.firebaserc`, project/site `interview-preparation-app-docs`).
+`.github/workflows/deploy-pages.yml` builds and publishes on every push to `main`.
+Legacy Firebase Hosting configuration remains in the repository but is not a deployment target for this maintenance run.
+
+**Maintenance checkpoint (2026-10-14):** The public docs checkout is now a sibling of the private product
+inside `interview-preparation-app-root/`. Existing feature claims have not been reverified in this technical
+maintenance pass; consult the product's current code and approved content plan before changing them.
 
 ## Structure
 
